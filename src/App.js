@@ -1,4 +1,5 @@
 import React from "react";
+import Nemo from "./Nemo";
 
 class App extends React.Component {
   constructor(props) {
@@ -33,6 +34,8 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <Nemo />
+
         {nemo_count.map((n, i) => {
           return (
             <div
